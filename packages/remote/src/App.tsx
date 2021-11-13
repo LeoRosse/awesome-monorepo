@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Card>
         <div>{array.join(",")}</div>
         <Button
-          label="click to add some number"
+          label="click to add some numbers to array"
           onClick={() => set([1, 2, 3])}
         />
       </Card>
