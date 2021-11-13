@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoRosse/awesome-project.git"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "watch": "tsc --watch",
