@@ -1,13 +1,9 @@
 {
-  "name": "library",
+  "name": "awesome-monorepo-library",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "license": "MIT",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeoRosse/awesome-project.git"
-  },
+  "license": "UNLICENSED",
+  "repository": "https://github.com/LeoRosse/awesome-monorepo.git",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "tsc --watch",
@@ -18,6 +14,7 @@
     "name": "Leonardo Rosseti",
     "email": "leorosse87@gmail.com"
   },
+  "typings": "./dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-transform-runtime": "^7.15.8",

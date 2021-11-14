@@ -1,5 +1,5 @@
 import React from "react";
-import { useArray } from "library";
+import { useArray } from "@leorosse/awesome-monorepo-library";
 import { Button, Card } from "./components";
 
 import "./index.scss";
